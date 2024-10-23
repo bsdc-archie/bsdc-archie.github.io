@@ -1,6 +1,24 @@
 h1{
     font-size: 400%;
+    color: white;
 }
 body{
-    background-image: url(../images/backgroundimage.png);
+    background-color: black;
 }
+
+.logo {
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+   
+  .logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    scale: 0.5;
+}
+   
