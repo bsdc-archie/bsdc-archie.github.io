@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #222222;
+}
+
+#page1,
+#page2,
+#page3{
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    align-content: center;
+    justify-items: center;
+}
+
+.home{
+    height: 15vh;
+    width: 85vw;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(56, 56, 56, 0.31);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #d8d8d8;
+}
+
+.homemain{
+    height: 70vh;
+    width: 85vw;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(56, 56, 56, 0.31);
+    display: block;
+    justify-items: center;
+    align-content: center;
+    margin-top: 55px;
+    color: #d8d8d8;
+}
+
+.main{
+    color: rgb(255, 255, 255);
+} 
+
+.text{
+    height: 310px;
+    width: 70vw;
+}
+
+a{
+    text-decoration: none;
+    color: darkgray;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+
+a:hover{
+    color: white;
+    transform: scale(1.15);
+}
+
+.shape1{
+    border-radius: 62% 38% 58% 42% / 41% 30% 70% 59%;
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(45deg, #3023AE 0%, #FF0099 100%);
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+
+.shape2{
+    border-radius: 25% 75% 13% 87% / 78% 77% 23% 22%;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(45deg, #23ae74 0%, #ffd000 100%);
+    position: absolute;
+    top: 295px;
+    left: 800px;
+}
+
+.shape3{
+    border-radius: 80% 20% 50% 50% / 43% 51% 49% 57%;
+    height: 350px;
+    width: 350px;
+    background-image: linear-gradient(45deg, #ae2323 0%, #e5ff00 100%);
+    position: absolute;
+    top: 800px;
+    left: 390px;
+}
+
+.shape4{
+    border-radius: 80% 20% 91% 9% / 69% 10% 90% 31%;
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(45deg, #239eae 0%, #5900ff 100%);
+    position: absolute;
+    bottom: 800px;
+    left: 1600px;
+}
+
+.shape5{
+    border-radius: 45% 55% 13% 87% / 79% 62% 38% 21%;
+    height: 275px;
+    width: 275px;
+    background-image: linear-gradient(45deg, #ae2397 0%, #0051ff 100%);
+    position: absolute;
+    bottom: 130px;
+    left: 1600px;
+}
+
+.shape6{
+    border-radius: 65% 35% 35% 65% / 75% 62% 38% 25%;
+    height: 325px;
+    width: 325px;
+    background-image: linear-gradient(45deg, #3c23ae 0%, #ff002b 100%);
+    position: absolute;
+    top: 1200px;
+    left: 1150px;
+}
+
+.shape7{
+    border-radius: 13% 87% 22% 78% / 84% 32% 68% 16%;
+    height: 225px;
+    width: 225px;
+    background-image: linear-gradient(45deg, #2364ae 0%, #66ff00 100%);
+    position: absolute;
+    top: 1650px;
+    left: 560px;
+}
